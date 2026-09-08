@@ -31,3 +31,7 @@ Setup for the first Semester Course Basic Statistics in R, 3ECTS
 #install.packages("factoextra") - for visualizing multivariate analysis results: fviz_pca_ind(pca_result)
 #install.packages(“tidyr"") - for tidying data: data <- data %>% pivot_longer(cols = c(variable1, variable2), names_to = "variable", values_to = "value")) - 
 #install.packages("readr") - for reading rectangular data: data <- read_csv("data.csv")
+#install.packages("knitr") - for dynamic report generation: knit("report.Rmd")
+#install.packages("scales") - for scaling and formatting axes in plots: scale_x_continuous(labels = scales::comma)
+#install.packages("minpack.lm") - for nonlinear least squares fitting: nlsLM(response ~ model_function(predictor, params), data = data, start = initial_params)
+
