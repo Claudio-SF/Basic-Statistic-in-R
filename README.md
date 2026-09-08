@@ -29,3 +29,5 @@ Setup for the first Semester Course Basic Statistics in R, 3ECTS
 #install.packages("fishmethods") - for fishery data analysis: fish_methods(data)
 #install.packages("FactoMineR") - for multivariate data analysis: PCA(data)
 #install.packages("factoextra") - for visualizing multivariate analysis results: fviz_pca_ind(pca_result)
+#install.packages(“tidyr"") - for tidying data: data <- data %>% pivot_longer(cols = c(variable1, variable2), names_to = "variable", values_to = "value")) - 
+#install.packages("readr") - for reading rectangular data: data <- read_csv("data.csv")
