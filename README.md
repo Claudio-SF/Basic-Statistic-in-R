@@ -1,5 +1,4 @@
-# Basic-Statistic-in-R
-Setup for the first Semester Course which gives 3ECTS
+Setup for the first Semester Course Basic Statistics in R, 3ECTS
 #Overview of all installed packages with a short explanation of their use
 #install.packages("tidyverse") - conglomerate of most important tools for data analysis
 #install.packages("readxl") - reads excel sheets: data <- read_excel("fish_data.xlsx")
@@ -18,5 +17,15 @@ Setup for the first Semester Course which gives 3ECTS
 #install.packages("glmmTMB") - for generalized linear mixed models: model <- glmmTMB(response ~ predictor + (1|random_effect), data = data, family = gaussian()))
 #install.packages("DHARMa") - for residual diagnostics of mixed models: simulateResiduals(fittedModel = model)
 #install.packages("ggeffects") - for visualizing effects of predictors in models: plot(ggpredict(model, terms = "predictor")
-
-
+#install.packages("s2") - for spherical geometry and spatial data analysis: st_distance(point1, point2)
+#install.packages("sf") - for handling spatial data: st_read("spatial_data.shp")
+#install.packages("terra") - for raster data analysis: raster_data <- rast("raster_data.tif")
+#install.packages("broom") - for tidying model outputs: tidy(model)
+#install.packages("gtsummary") - for creating summary tables: tbl_summary(data, by = "group")
+#install.packages("quarto") - for creating dynamic documents: quarto::quarto_render("document.qmd")
+#install.packages("skimr") - for summarizing data: skim(data)
+#install.packages("DataExplorer") - for exploring data: create_report(data)
+#install.packages("ggpubr") - for publication-ready plots: ggboxplot(data, x = "group", y = "value")
+#install.packages("fishmethods") - for fishery data analysis: fish_methods(data)
+#install.packages("FactoMineR") - for multivariate data analysis: PCA(data)
+#install.packages("factoextra") - for visualizing multivariate analysis results: fviz_pca_ind(pca_result)
